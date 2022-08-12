@@ -78,11 +78,15 @@
   #title{
     height:auto;
     width: 50%;
+    margin: 1rem 1rem 1rem 1rem;
   }
   #title h1{
     height: 100%;
     width: 100%;
     display: block;
+    text-align: center;
+    font-family: 'Dancing Script';font-size: 64px;
+    
 
   }
   #title p{
@@ -170,5 +174,28 @@
   
   align-items: center;
 }
+.airplane-list-container {
+  padding-top: 25px;
+  display: flex;
   
+  justify-content: center;
+  align-items: center;
+}
+.airplane-card{
+  width: 80%;
+  
+  
+}
+}
+/*section above only for experience-page*/
+#section-experience{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    background-color: white;
+    margin: 0px 30px;
+    border-radius: 10px 60px;
+    margin-bottom: 30px;
+
 }
