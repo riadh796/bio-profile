@@ -185,8 +185,22 @@
   width: 80%;
   
   
+  
 }
+#title{
+  height:auto;
+  width: 100%;
+  margin: 1rem 1rem 1rem 1rem;
 }
+#title h1{
+  height: 100%;
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-family: 'Dancing Script';font-size: 32px;
+
+}
+ }
 /*section above only for experience-page*/
 #section-experience{
   display: flex;
