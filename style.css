@@ -14,7 +14,7 @@
     justify-content: space-around;
     align-items: center;
     margin: 30px 35px 0px;
-    background-color:#f2f7fb;
+    background-color:  #eb3a;;
     border-top-left-radius: 45px;
     border-top-right-radius:45px ;
     padding-bottom: 35px;
@@ -32,6 +32,7 @@
     width: 5rem;
     text-align: center;
     padding: .90rem;
+    font-size: larger;
     
     
     
@@ -43,7 +44,7 @@
 
   main{
     margin: 0px 35px;
-    background-color:#f2f7fb;
+    background-color: #eb3a;
     border-bottom-left-radius: 45px;
     border-bottom-right-radius:45px ;
     padding-bottom: 35px;
@@ -52,19 +53,56 @@
   main #section1{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    
     background-color: white;
     margin: 0px 30px;
     border-radius: 30px;
+    margin-bottom: 30px;
+  }
+  main #section3{
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-between;
+    
+    background-color: white;
+    margin: 0px 30px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+  }
+  #banner{
+    
+    height:auto;
+    width: 50%;
+  }
+  #title{
+    height:auto;
+    width: 50%;
+  }
+  #title h1{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+  }
+  #title p{
+    height: 100%;
+    width: 100%;
+    display: block;
   }
   #banner img{
-    margin: 20px 20px;
-    width: 50%;
-    border-radius: 30px;
+   height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    
+    /*max-width: calc(100% - .1em);*/
+    display: block;
 
     
 
   }
+  
+  
   #section2{
     padding-top: 25px;
   }
@@ -84,7 +122,7 @@
   }
   
   .airplane-card, .results-graph {
-    background-color: rgb(240, 239, 239);
+    background-color: rgb(255, 255, 255);
     border-radius: .5em;
     box-shadow: 1px 2px 2px gray;
   }
@@ -100,4 +138,37 @@
     display: block;
     margin-bottom: .5rem;
   }
+ @media only screen and (max-width: 900px){
+  main #section1{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    
+    background-color: white;
+    margin: 0px 30px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+  }
+  main #section3{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    
+    background-color: white;
+    margin: 0px 30px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+  }
+  #banner{
+    height:auto;
+    width: 100%;
   
+ }
+ header{
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+  
+}
