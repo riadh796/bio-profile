@@ -173,6 +173,17 @@
     width: 100%;
   
  }
+ main #section-experience{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    background-color: white;
+    margin: 0px 30px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+
+ }
  header{
   display: flex;
   flex-direction: column;
@@ -218,6 +229,16 @@
     margin-bottom: 30px;
 
 }
-#div-experience1 h1{
-  font-family: 'Dancing Script';font-size: 32px;
+#section-experience #banner {
+  width: 100%;
+}
+
+
+
+.resize{
+  font-size: x-large;
+}
+.font-deco{
+  font-family: 'Twinkle Star';font-size: 32px;
+  text-align: center;
 }
